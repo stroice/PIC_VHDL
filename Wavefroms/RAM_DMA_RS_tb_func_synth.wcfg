@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RAM_DMA_RS_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RAM_DMA_RS_tb" />
+            <top_module name="glbl" />
+            <top_module name="pic_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1200000001fs"></ZoomEndTime>
+      <Cursor1Time time="1158435754fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="404"></NameColumnWidth>
+      <ValueColumnWidth column_width="166"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="group364" type="group">
+      <obj_property name="label">Control inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RAM_DMA_RS_tb/Clk20MHz" type="logic">
+         <obj_property name="ElementShortName">Clk20MHz</obj_property>
+         <obj_property name="ObjectShortName">Clk20MHz</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/ResetDMA" type="logic">
+         <obj_property name="ElementShortName">ResetDMA</obj_property>
+         <obj_property name="ObjectShortName">ResetDMA</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/ResetRS" type="logic">
+         <obj_property name="ElementShortName">ResetRS</obj_property>
+         <obj_property name="ObjectShortName">ResetRS</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/ResetRAM" type="logic">
+         <obj_property name="ElementShortName">ResetRAM</obj_property>
+         <obj_property name="ObjectShortName">ResetRAM</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group365" type="group">
+      <obj_property name="label">RS232 In/out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RAM_DMA_RS_tb/RS232_RX" type="logic">
+         <obj_property name="ElementShortName">RS232_RX</obj_property>
+         <obj_property name="ObjectShortName">RS232_RX</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/RS232_TX" type="logic">
+         <obj_property name="ElementShortName">RS232_TX</obj_property>
+         <obj_property name="ObjectShortName">RS232_TX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group375" type="group">
+      <obj_property name="label">DMA-RS232 connection</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RAM_DMA_RS_tb/RCVD_Data" type="array">
+         <obj_property name="ElementShortName">RCVD_Data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">RCVD_Data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/RX_Full" type="logic">
+         <obj_property name="ElementShortName">RX_Full</obj_property>
+         <obj_property name="ObjectShortName">RX_Full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/RX_Empty" type="logic">
+         <obj_property name="ElementShortName">RX_Empty</obj_property>
+         <obj_property name="ObjectShortName">RX_Empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/Data_Read" type="logic">
+         <obj_property name="ElementShortName">Data_Read</obj_property>
+         <obj_property name="ObjectShortName">Data_Read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/Valid_D" type="logic">
+         <obj_property name="ElementShortName">Valid_D</obj_property>
+         <obj_property name="ObjectShortName">Valid_D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/TX_Data" type="array">
+         <obj_property name="ElementShortName">TX_Data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">TX_Data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/Ack_out" type="logic">
+         <obj_property name="ElementShortName">Ack_out</obj_property>
+         <obj_property name="ObjectShortName">Ack_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/TX_RDY" type="logic">
+         <obj_property name="ElementShortName">TX_RDY</obj_property>
+         <obj_property name="ObjectShortName">TX_RDY</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group366" type="group">
+      <obj_property name="label">DMA-RAM connection</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RAM_DMA_RS_tb/Databus" type="array">
+         <obj_property name="ElementShortName">Databus[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Databus[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/Address" type="array">
+         <obj_property name="ElementShortName">Address[7:0]</obj_property>
+         <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/Write_En" type="logic">
+         <obj_property name="ElementShortName">Write_En</obj_property>
+         <obj_property name="ObjectShortName">Write_En</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/OE" type="logic">
+         <obj_property name="ElementShortName">OE</obj_property>
+         <obj_property name="ObjectShortName">OE</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group384" type="group">
+      <obj_property name="label">CPU in/out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RAM_DMA_RS_tb/SEND" type="logic">
+         <obj_property name="ElementShortName">SEND</obj_property>
+         <obj_property name="ObjectShortName">SEND</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/DMA_ACK" type="logic">
+         <obj_property name="ElementShortName">DMA_ACK</obj_property>
+         <obj_property name="ObjectShortName">DMA_ACK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/READY" type="logic">
+         <obj_property name="ElementShortName">READY</obj_property>
+         <obj_property name="ObjectShortName">READY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/DMA_RQ" type="logic">
+         <obj_property name="ElementShortName">DMA_RQ</obj_property>
+         <obj_property name="ObjectShortName">DMA_RQ</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group387" type="group">
+      <obj_property name="label">States of the blocks</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RAM_DMA_RS_tb/UUT2/Estado_DMA_reg" type="other">
+         <obj_property name="ElementShortName">Estado_DMA_reg</obj_property>
+         <obj_property name="ObjectShortName">Estado_DMA_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/UUT1/Transmitter/Estado_RS232TX_reg" type="other">
+         <obj_property name="ElementShortName">Estado_RS232TX_reg</obj_property>
+         <obj_property name="ObjectShortName">Estado_RS232TX_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/UUT1/Receiver/Estado_reg" type="other">
+         <obj_property name="ElementShortName">Estado_reg</obj_property>
+         <obj_property name="ObjectShortName">Estado_reg</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group385" type="group">
+      <obj_property name="label">RAM important positions</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/RAM_DMA_RS_tb/UUT3/Memoria_Esp[5]" type="array">
+         <obj_property name="ElementShortName">[5][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/UUT3/Memoria_Esp[4]" type="array">
+         <obj_property name="ElementShortName">[4][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/UUT3/Memoria_Esp[3]" type="array">
+         <obj_property name="ElementShortName">[3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/UUT3/Memoria_Esp[2]" type="array">
+         <obj_property name="ElementShortName">[2][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/UUT3/Memoria_Esp[1]" type="array">
+         <obj_property name="ElementShortName">[1][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/UUT3/Memoria_Esp[0]" type="array">
+         <obj_property name="ElementShortName">[0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group386" type="group">
+      <obj_property name="label">RAM outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/RAM_DMA_RS_tb/switches" type="array">
+         <obj_property name="ElementShortName">switches[7:0]</obj_property>
+         <obj_property name="ObjectShortName">switches[7:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/Temp_L" type="array">
+         <obj_property name="ElementShortName">Temp_L[6:0]</obj_property>
+         <obj_property name="ObjectShortName">Temp_L[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/RAM_DMA_RS_tb/Temp_H" type="array">
+         <obj_property name="ElementShortName">Temp_H[6:0]</obj_property>
+         <obj_property name="ObjectShortName">Temp_H[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
